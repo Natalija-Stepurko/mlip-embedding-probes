@@ -303,6 +303,10 @@ reproduce.sh       the whole run order as one script
 pyproject.toml, uv.lock, .python-version
 ```
 
+## Questions and problems
+
+Open an issue on this repository; questions are answered on a best-effort basis.
+
 ## Licences
 
 Code: MIT (`LICENSE`). The models are third-party and downloaded at run time under their own terms:
