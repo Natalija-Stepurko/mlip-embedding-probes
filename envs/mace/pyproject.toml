@@ -1,0 +1,21 @@
+[project]
+name = "mlip-embedding-probes-mace"
+version = "1.0.0"
+description = "Second environment, used only by stages/extract/extract_mace.py: MACE pins its own torch / e3nn stack"
+requires-python = ">=3.12"
+dependencies = [
+    "mace-torch==0.3.16",
+    "torch==2.8.0",
+    "e3nn==0.4.4",
+    "pymatgen==2026.9.24",
+    "ase==3.29.0",
+    "numpy==2.5.3",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

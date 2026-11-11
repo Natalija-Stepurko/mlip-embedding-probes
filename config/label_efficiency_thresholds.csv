@@ -1,0 +1,10 @@
+target,orb_n_stable,uma_n_stable,n_saturated_orb,n_saturated_uma,n_gnn
+formation_energy_per_atom,500,500,2000,1000,2000
+energy_above_hull,2000,2000,10000,5000,10000
+band_gap,500,500,7000,7000,7000
+density,1000,500,7000,7000,7000
+bulk_modulus,500,500,2000,2000,2000
+mag_density,1000,500,20000,20000,20000
+crystal_system,500,50,20000,20000,20000
+metal_insulator,100,100,1000,1000,1000
+magnetic_label,100,200,5000,2000,5000

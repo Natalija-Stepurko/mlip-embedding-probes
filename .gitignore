@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+mlip-probes/
+.env
+api_keys.py

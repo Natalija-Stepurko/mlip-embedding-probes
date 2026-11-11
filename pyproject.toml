@@ -1,0 +1,24 @@
+[project]
+name = "mlip-embedding-probes"
+version = "1.0.0"
+description = "Layer-wise probing of frozen foundation-MLIP embeddings (ORB-v3, UMA-S) on Materials Project structures"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "fairchem-core>=2.19.0",
+    "hdbscan>=0.8.44",
+    "huggingface-hub>=1.9.1",
+    "jarvis-tools>=2026.6.12",
+    "matminer>=0.9",
+    "matplotlib>=3.10",
+    "mp-api>=0.45",
+    "orb-models>=0.6.2",
+    "pandas>=2.0,<3",
+    "pyarrow>=25.0.1",
+    "pymatgen>=2026.3.23",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17",
+    "umap-learn>=0.5.12",
+    "xgboost>=3.3.0",
+]
