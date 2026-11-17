@@ -1,7 +1,7 @@
 # mlip-embedding-probes
 
 Code for **"Out-of-training properties in frozen interatomic potential embeddings are decodable and
-ordered by physical scale"**. This repository and the two Hugging Face datasets it reads are shared by
+ordered by physical scale"** ([arXiv:2611.21116](https://arxiv.org/abs/2611.21116)). This repository and the two Hugging Face datasets it reads are shared by
 both papers from this study, at the AI4Mat workshop (AI for Accelerated Materials Design) and at the
 AI for Science workshop, both at NeurIPS 2026; code and data are identical for the two.
 
@@ -19,7 +19,19 @@ Materials Project metadata, targets and structures, ORB-v3 embeddings, the two c
 ([`NatalijaStepurko/uma-mp-embeddings-gated`](https://huggingface.co/datasets/NatalijaStepurko/uma-mp-embeddings-gated):
 UMA-S embeddings, FAIR Chemistry License).
 
-If you use this code, please cite: Stepurko, N. and Laulainen, J. (2026). *Out-of-training properties in frozen interatomic potential embeddings are decodable and ordered by physical scale.* Presented at the AI4Mat workshop (AI for Accelerated Materials Design) and the AI for Science workshop, both at NeurIPS 2026; the same code and datasets accompany both papers.
+If you use this code, please cite: Stepurko, N. and Laulainen, J. E. M. (2026). *Out-of-training properties in frozen interatomic potential embeddings are decodable and ordered by physical scale.* [arXiv:2611.21116](https://arxiv.org/abs/2611.21116). Presented at the AI4Mat workshop (AI for Accelerated Materials Design) and the AI for Science workshop, both at NeurIPS 2026; the same code and datasets accompany both papers.
+
+```bibtex
+@misc{stepurko2026outoftraining,
+  title         = {Out-of-training properties in frozen interatomic potential embeddings are decodable and ordered by physical scale},
+  author        = {Stepurko, Natalija and Laulainen, Joonatan E. M.},
+  year          = {2026},
+  eprint        = {2611.21116},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.chem-ph},
+  url           = {https://arxiv.org/abs/2611.21116}
+}
+```
 
 ---
 
